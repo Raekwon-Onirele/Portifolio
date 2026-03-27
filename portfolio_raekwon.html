@@ -1,0 +1,461 @@
+<!-- Declaração do tipo de documento HTML5 -->
+<!doctype html>
+<!-- Elemento raiz da página, com idioma português brasileiro -->
+<html lang="pt-BR">
+  <!-- Cabeçalho da página: contém metadados, título e estilos -->
+  <head>
+    <!-- Define o conjunto de caracteres como UTF-8 para suporte a caracteres especiais -->
+    <meta charset="UTF-8" />
+    <!-- Configura a viewport para responsividade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Raekwon Onirele — Portfólio</title>
+    <!-- Pré-carrega fontes do Google Fonts para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Fim do cabeçalho -->
+  </head>
+  <!-- Corpo da página: contém todo o conteúdo visível -->
+  <body>
+    <!-- Barra de navegação fixa no topo da página -->
+    <nav>
+      <!-- Logo do portfólio -->
+      <div class="nav-logo">R.O</div>
+      <!-- Links de navegação para as seções da página -->
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seção principal (Hero): Apresentação inicial com nome, foto e chamada para ação -->
+    <section id="hero">
+      <!-- Texto de apresentação do hero -->
+      <div class="hero-text">
+        <!-- Tag indicando disponibilidade para estágio -->
+        <div class="hero-tag">Disponível</div>
+        <!-- Nome principal com destaque no sobrenome -->
+        <h1 class="hero-name">Raekwon<br /><span>Onirele</span></h1>
+        <!-- Cargo e especialidade -->
+        <p class="hero-role">Desenvolvedor Front-End & Back-End</p>
+        <!-- Descrição pessoal -->
+        <p class="hero-desc">
+          Estudante de Análise e Desenvolvimento de Sistemas com experiência em
+          desenvolvimento web e paixão por criar interfaces modernas e
+          funcionais. Comprometido, ágil e sempre em evolução.
+        </p>
+        <!-- Botões de chamada para ação -->
+        <div class="hero-ctas">
+          <a href="#projetos" class="btn-primary">Ver projetos ↓</a>
+          <a href="#contato" class="btn-outline">Entre em contato</a>
+        </div>
+      </div>
+      <!-- Container da foto de perfil -->
+      <div class="hero-photo-wrap">
+        <!-- Anel animado ao redor da foto -->
+        <div class="hero-photo-ring"></div>
+        <!-- Imagem de perfil -->
+        <img
+          src="/WhatsApp Image 2026-03-27 at 10.21.28.jpeg"
+          alt="Raekwon Onirele"
+          class="hero-photo"
+        />
+      </div>
+    </section>
+
+    <!-- Barra de estatísticas: Mostra números chave sobre experiência e habilidades -->
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-num">3+</span
+        ><span class="stat-label">Anos de experiência profissional</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">6+</span
+        ><span class="stat-label">Tecnologias dominadas</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3°</span
+        ><span class="stat-label">Semestre em ADS — USJT</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">8+</span
+        ><span class="stat-label">Projetos de portfólio</span>
+      </div>
+    </div>
+
+    <!-- Seção Sobre: Descrição pessoal e trajetória -->
+    <section id="sobre">
+      <div class="fade-up">
+        <!-- Rótulo da seção -->
+        <p class="section-label">// sobre mim</p>
+        <!-- Título da seção -->
+        <h2 class="section-title">Tecnologia é minha<br />linguagem nativa.</h2>
+        <!-- Texto descritivo sobre o autor -->
+        <p
+          style="
+            max-width: 680px;
+            color: var(--muted);
+            line-height: 1.9;
+            font-size: 1.02rem;
+          "
+        >
+          Tenho 19 anos, sou de Barueri/SP e estou no 3º semestre do curso de
+          <strong style="color: var(--text)"
+            >Análise e Desenvolvimento de Sistemas</strong
+          >
+          na Faculdade São Judas Tadeu. Desde cedo, desenvolvi afinidade natural
+          com tecnologia — hoje transformo isso em soluções reais através do
+          código. <br /><br />
+          Acumulo experiências profissionais na Prefeitura de Osasco, no Grupo
+          RENAC e atualmente como estagiário na Intranet, o que me deu visão de
+          atendimento, processos administrativos e ambientes corporativos de TI.
+          Meu foco atual é aprofundar minhas habilidades em desenvolvimento web
+          para contribuir de forma significativa em equipes de tecnologia.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades: Lista de tecnologias e competências técnicas -->
+    <section
+      id="habilidades"
+      style="
+        background: var(--surface);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      "
+    >
+      <div class="fade-up">
+        <!-- Rótulo da seção -->
+        <p class="section-label">// habilidades técnicas</p>
+        <!-- Título da seção -->
+        <h2 class="section-title">Stack & Tecnologias</h2>
+        <!-- Grade de cartões de habilidades -->
+        <div class="skills-grid">
+          <!-- Cartão de habilidade: HTML5 & CSS3 -->
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <div class="skill-name">HTML5 & CSS3</div>
+            <div class="skill-desc">
+              Estruturação semântica e estilização responsiva. Certificado pelo
+              SENAI em criação de páginas web.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 88%"></div>
+            </div>
+          </div>
+          <!-- Cartão de habilidade: JavaScript -->
+          <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-desc">
+              Lógica de programação, manipulação de DOM, eventos e integração
+              com APIs REST.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 72%"></div>
+            </div>
+          </div>
+          <!-- Cartão de habilidade: React.js -->
+          <div class="skill-card">
+            <div class="skill-icon">⚛️</div>
+            <div class="skill-name">React.js</div>
+            <div class="skill-desc">
+              Componentes reutilizáveis, hooks, React Router e Context API. Em
+              evolução constante.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 65%"></div>
+            </div>
+          </div>
+          <!-- Cartão de habilidade: Java -->
+          <div class="skill-card">
+            <div class="skill-icon">☕</div>
+            <div class="skill-name">Java</div>
+            <div class="skill-desc">
+              Fundamentos de orientação a objetos, estruturas de dados e lógica
+              de programação.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- Cartão de habilidade: SQL / MySQL -->
+          <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <div class="skill-name">MySQL / MongoDB</div>
+            <div class="skill-desc">
+              Modelagem de banco de dados relacional, querys e criação
+              de schemas.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 68%"></div>
+            </div>
+          </div>
+          <!-- Cartão de habilidade: Git & GitHub -->
+          <div class="skill-card">
+            <div class="skill-icon">🔧</div>
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-desc">
+              Versionamento de código, branches, pull requests e colaboração em
+              projetos open source.
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos: Mostra os principais trabalhos desenvolvidos -->
+    <section id="projetos">
+      <div class="fade-up">
+        <!-- Rótulo da seção -->
+        <p class="section-label">// projetos</p>
+        <!-- Título da seção -->
+        <h2 class="section-title">O que eu construí</h2>
+        <!-- Grade de cartões de projetos -->
+        <div class="projects-grid">
+          <!-- Cartão do projeto NetflixClone -->
+          <div class="project-card">
+            <span class="project-tag">Full Stack</span>
+            <h3 class="project-title">NetflixClone</h3>
+            <p class="project-desc">
+              Plataforma de streaming inspirada na Netflix com autenticação JWT,
+              catálogo de filmes por gênero, busca, lista pessoal e efeito hover
+              expand nos cards. Projeto completo com planejamento Scrum.
+            </p>
+            <div class="project-stack">
+              <span class="stack-pill">React.js</span>
+              <span class="stack-pill">Bootstrap 5</span>
+              <span class="stack-pill">Node.js</span>
+              <span class="stack-pill">MySQL</span>
+            </div>
+          </div>
+          <!-- Cartão do projeto Portfólio Pessoal -->
+          <div class="project-card">
+            <span class="project-tag">Full Stack</span>
+            <h3 class="project-title">Blog</h3>
+            <p class="project-desc">
+              Este projeto foi feito em React.js para front-end e para back-end foi utilizado o firebase. Construído de forma simples, utilizando autenticação de usuário, criação no banco e crud de objeto.
+            </p>
+            <div class="project-stack">
+              <span class="stack-pill">React.js</span>
+              <span class="stack-pill">Firebase</span>
+            </div>
+          </div>
+          <!-- Cartão do projeto Projetos no GitHub -->
+          <div class="project-card">
+            <span class="project-tag">Back-End</span>
+            <h3 class="project-title">API Mongo DB</h3>
+            <p class="project-desc">
+              Projeto de API RESTful utilizando Node.js, Express e MongoDB. A
+              API oferece endpoints para gerenciamento de recursos, integração com banco de dados NoSQL.
+            </p>
+            <div class="project-stack">
+              <span class="stack-pill">Prisma</span>
+              <span class="stack-pill">Node.js</span>
+              <span class="stack-pill">MongoDB</span>
+              <span class="stack-pill">Express</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Experiência: Linha do tempo das experiências profissionais -->
+    <section
+      id="experiencia"
+      style="
+        background: var(--surface);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      "
+    >
+      <div class="fade-up">
+        <!-- Rótulo da seção -->
+        <p class="section-label">// experiência profissional</p>
+        <!-- Título da seção -->
+        <h2 class="section-title">Trajetória</h2>
+        <!-- Linha do tempo com itens de experiência -->
+        <div class="timeline">
+          <!-- Item da experiência: Estagiário de TI na Intranet -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Set/2025 — Atual</div>
+            <div class="timeline-role">Estagiário de TI</div>
+            <div class="timeline-company">Intranet</div>
+            <div class="timeline-desc">
+              Atuação em ambiente corporativo de tecnologia da informação,
+              suporte e desenvolvimento de soluções internas.
+            </div>
+          </div>
+          <!-- Item da experiência: Jovem Aprendiz no RENAC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              Mar/2023 — Jul/2024 · 1 ano e 4 meses
+            </div>
+            <div class="timeline-role">
+              Jovem Aprendiz — Suporte Administrativo
+            </div>
+            <div class="timeline-company">
+              RENAC — Recuperadora Nacional de Crédito
+            </div>
+            <div class="timeline-desc">
+              Atendimento virtual a clientes, suporte administrativo e operação
+              de sistemas internos. Desenvolvimento de habilidades de
+              comunicação e trabalho em equipe em ambiente financeiro.
+            </div>
+          </div>
+          <!-- Item da experiência: Estagiário na Prefeitura de Osasco -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jan/2021 — Dez/2021 · 11 meses</div>
+            <div class="timeline-role">
+              Estagiário — Recepção e Administração
+            </div>
+            <div class="timeline-company">
+              Prefeitura de Osasco — Casa do Empreendedor
+            </div>
+            <div class="timeline-desc">
+              Atendimento presencial ao público de todas as idades, suporte
+              administrativo e organização de processos internos. Primeira
+              experiência profissional formal.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Formação: Educação e cursos realizados -->
+    <section id="formacao">
+      <div class="fade-up">
+        <!-- Rótulo da seção -->
+        <p class="section-label">// formações</p>
+        <!-- Título da seção -->
+        <h2 class="section-title">Educação & Cursos</h2>
+        <!-- Grade de cartões de formação -->
+        <div class="edu-grid">
+          <!-- Cartão de formação: Análise e Desenvolvimento de Sistemas -->
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-degree">Análise e Desenvolvimento de Sistemas</div>
+            <div class="edu-inst">Universidade São Judas Tadeu — USJT</div>
+            <div class="edu-period">3º / 5º Semestres · Em andamento</div>
+          </div>
+          <!-- Cartão de formação: HTML5, CSS3 e JavaScript -->
+          <div class="edu-card">
+            <div class="edu-icon">💻</div>
+            <div class="edu-degree">HTML5, CSS3 e JavaScript</div>
+            <div class="edu-inst">SENAI</div>
+            <div class="edu-period">
+              Criação de Páginas para Internet · Concluído
+            </div>
+          </div>
+          <!-- Cartão de formação: React do Zero à Maestria -->
+          <div class="edu-card">
+            <div class="edu-icon">⚛️</div>
+            <div class="edu-degree">React do Zero à Maestria</div>
+            <div class="edu-inst">Curso Online</div>
+            <div class="edu-period">Em andamento</div>
+          </div>
+          <!-- Cartão de formação: Inglês Intermediário -->
+          <div class="edu-card">
+            <div class="edu-icon">🌍</div>
+            <div class="edu-degree">Inglês — Nível Intermediário</div>
+            <div class="edu-inst">Open Way</div>
+            <div class="edu-period">Em andamento</div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📚</div>
+            <div class="edu-degree">Imersão Front-End com IA</div>
+            <div class="edu-inst">Alura</div>
+            <div class="edu-period">Concluído</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato: Informações para entrar em contato -->
+    <section id="contato">
+      <!-- Grade de contato com texto e links -->
+      <div class="contact-grid fade-up">
+        <!-- Texto introdutório da seção contato -->
+        <div>
+          <p class="section-label">// contato</p>
+          <h2 class="section-title">Vamos construir<br />algo juntos?</h2>
+          <p style="color: var(--muted); max-width: 380px; line-height: 1.8">
+            Estou em busca de oportunidades de estágio em desenvolvimento web.
+            Se você tem uma vaga ou projeto interessante, me manda uma mensagem!
+          </p>
+        </div>
+        <!-- Lista de links de contato -->
+        <div class="contact-links">
+          <!-- Link para e-mail -->
+          <a href="mailto:raekwononirele@gmail.com" class="contact-link">
+            <div class="contact-link-icon">✉️</div>
+            <div class="contact-link-text">
+              <strong>E-mail</strong>
+              <span>raekwononirele@gmail.com</span>
+            </div>
+          </a>
+          <!-- Link para LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/raekwon-onirele-41561422b"
+            target="_blank"
+            class="contact-link"
+          >
+            <div class="contact-link-icon">💼</div>
+            <div class="contact-link-text">
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/raekwon-onirele</span>
+            </div>
+          </a>
+          <!-- Link para GitHub -->
+          <a
+            href="https://github.com/Raekwon-Onirele"
+            target="_blank"
+            class="contact-link"
+          >
+            <div class="contact-link-icon">🐙</div>
+            <div class="contact-link-text">
+              <strong>GitHub</strong>
+              <span>github.com/Raekwon-Onirele</span>
+            </div>
+          </a>
+          <!-- Link para telefone -->
+          <a href="tel:+5511949934974" class="contact-link">
+            <div class="contact-link-icon">📱</div>
+            <div class="contact-link-text">
+              <strong>Telefone</strong>
+              <span>(11) 94993-4974</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+      <p>
+        Desenvolvido por
+        <strong style="color: var(--accent)">Raekwon Onirele</strong>
+        &nbsp;·&nbsp; Barueri, SP &nbsp;·&nbsp; 2026
+      </p>
+    </footer>
+
+    <!-- Scripts JavaScript para interatividade -->
+    <script src="scripts.js"></script>
+    <!-- Fim do corpo da página -->
+  </body>
+  <!-- Fim do documento HTML -->
+</html>
